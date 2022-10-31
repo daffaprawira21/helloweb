@@ -182,7 +182,7 @@ button {
 /*=== SIDEBAR ===*/
 .sidebar {
     width: 300px;
-    background-color: red;
+    background-color: #221F1F;
     float: right;
     box-sizing: border-box;
     padding: 20px;
