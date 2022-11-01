@@ -50,7 +50,7 @@ table {
 /*CSS RESET END*/
 
 body {
-    font: 16px/28px arial, sans-serif;
+    font: 16px/28px monospace;
     background-image: url(img/upfeathers.png);
     background-color: #fff2df;
     color: #454140;
