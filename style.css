@@ -125,6 +125,10 @@ p {
     background-color: white;
 }
 
+.main h3 {
+    text-align: center;
+}
+
 table {
     margin: auto;
     width: 70%;
@@ -143,10 +147,6 @@ th, td {
 th {
     background-color: #221F1F;
     color: white;
-}
-
-.main h3 {
-    text-align: center;
 }
 
 .nama {
@@ -181,11 +181,42 @@ button {
 
 /*=== SIDEBAR ===*/
 .sidebar {
-    width: 300px;
-    background-color: #221F1F;
+    width: 360px;
+    background-color:#F5F5F1;
     float: right;
     box-sizing: border-box;
-    padding: 20px;
+}
+
+.artikel1, .artikel2, .artikel3 {
+    margin: 25px;
+}
+
+.artikel1{
+    height: 250px;
+    background-image: url(img/coffe.jpg);
+    background-size: cover;
+    opacity: 0.83;
+    border: 6px solid white;
+    border-radius: 20px;
+}
+
+.artikel2{
+    height: 250px;
+    background-image: url(img/image2.jpg);
+    background-size: cover;
+    opacity: 0.95;
+    border: 6px solid white;
+    border-radius: 20px;
+}
+
+.artikel3{
+    height: 250px;
+    background-image: url(img/Robot.jpg);
+    background-size: cover;
+    opacity: 0.83;
+    background-position: -50px 0px;
+    border: 6px solid white;
+    border-radius: 20px;
 }
 
 .footer {
