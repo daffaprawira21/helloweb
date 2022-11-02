@@ -137,7 +137,7 @@ table {
 /*CSS RESET END*/
 
 body {
-    font: 16px/28px monospace;
+    font: 16px/28px monospace, arial, verdana, sans-serif;
     background-image: url(img/upfeathers.png);
     background-color: #fff2df;
     color: #454140;
@@ -206,7 +206,7 @@ h2 {
 }
 
 h3 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     margin-bottom: 5px;
 }
@@ -227,24 +227,21 @@ p {
 
 .main h3 {
     text-align: center;
+    font-size: 16px;
 }
 
 table {
     margin: auto;
-    width: 70%;
+    width: 80%;
 }
 
 table,
 th,
 td {
-    border: 1px solid #221F1F;
+    border: 1.5px solid #221F1F;
     text-align: center;
     font-size: 14px;
-}
-
-th,
-td {
-    font-size: 12px;
+    font-weight: bold;
 }
 
 th {
@@ -274,11 +271,16 @@ label {
 input {
     padding: 2px;
     font-size: 14px;
+    border-radius: 5px;
+    border-color: #F5F5F1;
 }
 
 button {
     width: 50px;
-    padding: 2px;
+    padding: 2.5px;
+    border-radius: 5px;
+    background-color: #221F1F;
+    color: white;
     margin-right: 10px;
 }
 
