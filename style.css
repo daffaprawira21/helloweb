@@ -187,6 +187,7 @@ body {
 
 .header a:hover {
     background-color: white;
+    font-weight: bold;
     color: #221F1F;
     border-radius: 5px;
 }
